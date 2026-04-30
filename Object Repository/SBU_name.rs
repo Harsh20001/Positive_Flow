@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SBU_name</name>
+   <tag></tag>
+   <elementGuidId>e962aec0-bd16-44d5-939d-41dbda350efa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='ctl00_ContentPlaceHolder1_ucApprove_GvAuditArea']/tbody/tr[2]/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.gridRow > td:nth-of-type(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>c4054675-5589-46af-88ea-6d3fb8c9c42e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>2d61d04b-851d-4872-b38a-4e5b5ae005a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aditya Birla Finance Limited</value>
+      <webElementGuid>fc292da5-aa70-4445-9ed4-ff74101f51fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_ucApprove_GvAuditArea&quot;)/tbody[1]/tr[@class=&quot;gridRow&quot;]/td[3]</value>
+      <webElementGuid>28f3d1d3-3c04-4b84-87cc-e6a18831cd13</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='ctl00_ContentPlaceHolder1_ucApprove_GvAuditArea']/tbody/tr[2]/td[3]</value>
+      <webElementGuid>cee9611b-cfb1-427c-9847-b414f88e9f86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test'])[1]/following::td[1]</value>
+      <webElementGuid>0b862402-2c98-4213-a1eb-fdde380eb5e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[3]</value>
+      <webElementGuid>97b453e5-9bf5-4dec-97b4-d65f4f758f24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aditya Birla Capital Limited'])[2]/preceding::td[1]</value>
+      <webElementGuid>cfd413da-ef07-4aa7-ab03-94899c6a0783</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/preceding::td[2]</value>
+      <webElementGuid>bfaea382-ade0-4009-850a-c88696169007</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Aditya Birla Finance Limited']/parent::*</value>
+      <webElementGuid>9147938c-7761-4a9c-bacb-a78dc34ca79c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[3]</value>
+      <webElementGuid>f2a51470-5ce1-44a9-bf17-af74219daf15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Aditya Birla Finance Limited' or . = 'Aditya Birla Finance Limited')]</value>
+      <webElementGuid>8a4ce6a6-74fb-4fe2-b134-69b04e433e12</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

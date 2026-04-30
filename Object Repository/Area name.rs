@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Area name</name>
+   <tag></tag>
+   <elementGuidId>1dc814b4-aff3-4cfb-a49e-b556119c4be3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='ctl00_ContentPlaceHolder1_ucApprove_GvAuditArea']/tbody/tr[2]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.gridRow > td:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>cbed76af-a2db-43fc-bfbe-9c0fee9829e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>94c77818-2dc7-4d35-bb9e-0586d5ae8bfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>test</value>
+      <webElementGuid>8ac6b882-a410-4a78-a262-6ca2d4114452</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_ucApprove_GvAuditArea&quot;)/tbody[1]/tr[@class=&quot;gridRow&quot;]/td[2]</value>
+      <webElementGuid>4111ab9c-2ffe-410e-8762-5792010d9df5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='ctl00_ContentPlaceHolder1_ucApprove_GvAuditArea']/tbody/tr[2]/td[2]</value>
+      <webElementGuid>2716ac2e-254c-4b0d-8c50-99714524afa1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[2]</value>
+      <webElementGuid>82211e09-09b9-45ac-a5df-3064485c0b73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modified On'])[1]/following::td[2]</value>
+      <webElementGuid>bc8bc244-d558-4c24-8f12-61a0bd2fb3bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aditya Birla Finance Limited'])[1]/preceding::td[1]</value>
+      <webElementGuid>0afc24de-3782-4448-a6fc-5d277606b2c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aditya Birla Capital Limited'])[2]/preceding::td[2]</value>
+      <webElementGuid>7a4b389b-db50-442d-ae55-c80e122814ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='test']/parent::*</value>
+      <webElementGuid>4c57cd07-08f9-4c43-a9a2-c08ff0a625ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/table/tbody/tr[2]/td[2]</value>
+      <webElementGuid>ae82b84f-308c-47d8-88c7-a302bd923fe2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'test' or . = 'test')]</value>
+      <webElementGuid>0ea96574-36cd-4f99-984c-34ffeb98d894</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

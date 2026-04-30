@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>View_details_company_name</name>
+   <tag></tag>
+   <elementGuidId>95b97d7b-2d71-42ac-a54d-ae66da0d5c90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='DisplayData']/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>672c0c02-8429-4463-b65b-de7b8d2c4731</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>left</value>
+      <webElementGuid>8291de33-d391-47db-9668-3a10a1c8ebdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>70%</value>
+      <webElementGuid>8221878b-4b4c-4b9d-8559-d636f34be6b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aditya Birla Capital Limited</value>
+      <webElementGuid>18546c1d-1349-44e8-9e27-dd39f5a5ecbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DisplayData&quot;)/table[1]/tbody[1]/tr[2]/td[1]/div[1]/table[@class=&quot;default&quot;]/tbody[1]/tr[2]/td[2]</value>
+      <webElementGuid>649083ee-4d51-465a-87ca-573d2cdcdcbd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='DisplayData']/table/tbody/tr[2]/td/div/table/tbody/tr[2]/td[2]</value>
+      <webElementGuid>1662bf78-8a14-40e2-b827-2a341e37abed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/following::td[1]</value>
+      <webElementGuid>5a534f07-800e-4a74-a850-eb38f7371f9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Record'])[1]/following::td[2]</value>
+      <webElementGuid>6c0db8b1-215f-4b50-8f14-0b2f34444889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SBU Name'])[1]/preceding::td[1]</value>
+      <webElementGuid>c755b03d-9368-41ea-b660-563d22b8b5c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aditya Birla Finance Limited'])[1]/preceding::td[2]</value>
+      <webElementGuid>620e4a5b-be52-43e4-a05b-38a042bcc21f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Aditya Birla Capital Limited']/parent::*</value>
+      <webElementGuid>c28b47cf-9e4c-4fa3-9e10-19bcec4e4bca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>f154f321-c9ec-43f4-9431-df4b540055dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Aditya Birla Capital Limited' or . = 'Aditya Birla Capital Limited')]</value>
+      <webElementGuid>2aea1805-3c80-41a0-acfd-961ffa2d01c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

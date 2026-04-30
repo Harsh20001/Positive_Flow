@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Action</name>
+   <tag></tag>
+   <elementGuidId>7bf00c66-3f48-4651-aca4-1471510deb3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ctl00_ContentPlaceHolder1_ucApprove_DDAction']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_ContentPlaceHolder1_ucApprove_DDAction</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>e3f773cf-b864-451e-9222-9f7285dba614</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$ContentPlaceHolder1$ucApprove$DDAction</value>
+      <webElementGuid>9f95ab0d-9f3d-4e63-9de7-533178248d97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_ContentPlaceHolder1_ucApprove_DDAction</value>
+      <webElementGuid>b7da8fc1-9332-448a-8a0e-74b7994a9efe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>40f5c86b-4f6a-4e42-bf93-da538b2b9b6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>txtbox</value>
+      <webElementGuid>13c65154-738c-4290-acdf-bd080979e4e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+		All
+		New Addition
+		Updated
+		Deleted
+
+	</value>
+      <webElementGuid>156f398e-a867-448b-a5d8-e0dc7a61e92c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_ucApprove_DDAction&quot;)</value>
+      <webElementGuid>e1e37409-551f-423c-9c6b-3150686acd59</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='ctl00_ContentPlaceHolder1_ucApprove_DDAction']</value>
+      <webElementGuid>0218b577-ab55-4891-9ae0-6adf4aafb83d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ctl00_ContentPlaceHolder1_ucApprove_pnlFilter']/table/tbody/tr/td[2]/select</value>
+      <webElementGuid>1d7a5419-a1c6-4210-a784-491f63decaec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action :'])[1]/following::select[1]</value>
+      <webElementGuid>5043623b-7dd0-4dc8-b876-e70c465bab0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FILTER'])[1]/following::select[1]</value>
+      <webElementGuid>66bb214c-9bf7-48a0-9777-d2dcd62bb7c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modified On :'])[1]/preceding::select[1]</value>
+      <webElementGuid>83001b34-db9f-4be2-8551-89eb6344e749</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Page Size :'])[1]/preceding::select[1]</value>
+      <webElementGuid>0f8a42fc-b771-48d9-b4e4-871474ac1ecf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/table/tbody/tr/td[2]/select</value>
+      <webElementGuid>4083bb0c-9008-4085-82ba-932d2cbd338f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'ctl00$ContentPlaceHolder1$ucApprove$DDAction' and @id = 'ctl00_ContentPlaceHolder1_ucApprove_DDAction' and (text() = '
+		All
+		New Addition
+		Updated
+		Deleted
+
+	' or . = '
+		All
+		New Addition
+		Updated
+		Deleted
+
+	')]</value>
+      <webElementGuid>358dda83-0ac8-4100-93f4-64c899db9841</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
