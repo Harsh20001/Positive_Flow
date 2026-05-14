@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>audit_area_auditors_workspace</name>
+   <tag></tag>
+   <elementGuidId>f43de3f9-da71-4f0e-88e8-eab2898eb490</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_ContentPlaceHolder1_DList_ctl00_GVData > tbody > tr:nth-of-type(2) > td:nth-of-type(6)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='ctl00_ContentPlaceHolder1_DList_ctl00_GVData']/tbody/tr[2]/td[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>34e8acb2-a273-4c3f-956e-c80d1985f323</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>a9fe96cc-3b39-4ee5-82f3-dcfb34787cd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>audit area 14_05_2026 10_00</value>
+      <webElementGuid>49da5a2c-e52d-4b2a-aea7-4c5ece86d20b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_DList_ctl00_GVData&quot;)/tbody[1]/tr[2]/td[6]</value>
+      <webElementGuid>10baf14e-ac1a-49d8-926e-1597bb76e924</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='ctl00_ContentPlaceHolder1_DList_ctl00_GVData']/tbody/tr[2]/td[6]</value>
+      <webElementGuid>0235b679-90c9-470e-945a-40849af45e3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aditya Birla Capital Limited'])[3]/following::td[3]</value>
+      <webElementGuid>d11e6122-156e-4a1a-9201-b5c59ea82b6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Completion Status'])[1]/following::td[6]</value>
+      <webElementGuid>f2e9284b-31a9-41d6-a5ef-07b0cd1ca6fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mumbai (M001)'])[1]/preceding::td[1]</value>
+      <webElementGuid>f9a92f10-6767-414b-ab8d-c9115c43a8f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular Review'])[2]/preceding::td[2]</value>
+      <webElementGuid>fe186169-06a6-4a93-a7df-f2294cb3de0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='audit area 14_05_2026 10_00']/parent::*</value>
+      <webElementGuid>b97c2c9f-f0bc-4e81-a900-f68afcae1d41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/table/tbody/tr[2]/td[6]</value>
+      <webElementGuid>aa3f9e12-00b8-4f08-a2e5-d25da683a4f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'audit area 14_05_2026 10_00' or . = 'audit area 14_05_2026 10_00')]</value>
+      <webElementGuid>2588e734-df2c-440b-aa32-3dff2c35a5d1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -35,7 +35,10 @@ public class Excel {
 				'Lead_Auditor': data.getValue('Lead_Auditor', 1),
 				'Audit_Type': data.getValue('Audit_Type', 1),
 				'Audit_Team': data.getValue('Audit_Team', 1),
-				'Plan': data.getValue('Plan', 1)
+				'Plan': data.getValue('Plan', 1),
+				'Process': data.getValue('Process', 1),
+				'Scope': data.getValue('Scope', 1),
+				'Background': data.getValue('Background', 1)
 			]
 
 		}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Audit_Type_Auditors_workspace</name>
+   <tag></tag>
+   <elementGuidId>75240f22-1995-49ea-a80a-df77132bf5e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td:nth-of-type(8)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='ctl00_ContentPlaceHolder1_DList_ctl00_GVData']/tbody/tr[2]/td[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>1ac614c5-2fe3-4306-a5fe-d816a9f5d948</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>b195e688-77cb-4760-bcd2-2fd0284e2f93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Regular Review</value>
+      <webElementGuid>08a859fd-1dae-4b1f-8a2f-adbde09b1840</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_DList_ctl00_GVData&quot;)/tbody[1]/tr[2]/td[8]</value>
+      <webElementGuid>d29bca32-b308-4295-99b4-23ebc7319e33</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='ctl00_ContentPlaceHolder1_DList_ctl00_GVData']/tbody/tr[2]/td[8]</value>
+      <webElementGuid>fe4b75a6-bfaf-4af6-8c48-cc3d30815994</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mumbai (M001)'])[1]/following::td[1]</value>
+      <webElementGuid>f95921fe-1991-42a1-a3ff-87222bdc7547</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='audit area 14_05_2026 10_00'])[1]/following::td[2]</value>
+      <webElementGuid>a74993e0-be31-4f4f-8444-5f9161a95ad9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Etrends ETD02 (ETD02)'])[1]/preceding::td[1]</value>
+      <webElementGuid>c699a882-6f8e-4224-ae36-d983b979b5f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Etrends ETD01 (ETD01)'])[1]/preceding::td[3]</value>
+      <webElementGuid>4a80bcaa-b1f0-4f02-bcc9-0784e3a824eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[8]</value>
+      <webElementGuid>23b2d7a2-6e65-4989-8ca5-1a47cb8d57d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Regular Review' or . = 'Regular Review')]</value>
+      <webElementGuid>21eee3c4-ea61-4d4a-a800-b237170be5cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

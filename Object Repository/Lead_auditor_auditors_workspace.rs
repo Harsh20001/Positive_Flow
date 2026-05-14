@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Lead_auditor_auditors_workspace</name>
+   <tag></tag>
+   <elementGuidId>bbc8d737-e8aa-4c43-87d6-28e635ac53c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td:nth-of-type(9)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='ctl00_ContentPlaceHolder1_DList_ctl00_GVData']/tbody/tr[2]/td[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>902290ae-5b03-48ad-b3f3-dc840e3860e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>af72035d-0e7b-4587-94be-72f7fa82d2e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Etrends ETD02 (ETD02)</value>
+      <webElementGuid>409c76b4-d6e9-4363-9f7a-d088b2112175</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_DList_ctl00_GVData&quot;)/tbody[1]/tr[2]/td[9]</value>
+      <webElementGuid>70a06ce3-a87b-4e0e-808e-361fb502546a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='ctl00_ContentPlaceHolder1_DList_ctl00_GVData']/tbody/tr[2]/td[9]</value>
+      <webElementGuid>26cfdd1c-7912-4cdb-bd4c-02c742847b23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular Review'])[2]/following::td[1]</value>
+      <webElementGuid>0bd63eaa-41be-4157-b27b-75ee2b4aa63f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mumbai (M001)'])[1]/following::td[2]</value>
+      <webElementGuid>7a28f8b3-08e6-48f8-9673-39aa4d34416e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Etrends ETD01 (ETD01)'])[1]/preceding::td[2]</value>
+      <webElementGuid>4b2725cd-037f-4d63-bf35-a5ae69d6534d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Internal'])[1]/preceding::td[3]</value>
+      <webElementGuid>11030a74-da0e-4420-a7db-410866e9c68d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Etrends ETD02 (ETD02)']/parent::*</value>
+      <webElementGuid>64bad974-1273-471a-9a5c-9a96dda7d482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[9]</value>
+      <webElementGuid>de779d59-4c86-4f87-b630-eeeda0bc9908</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Etrends ETD02 (ETD02)' or . = 'Etrends ETD02 (ETD02)')]</value>
+      <webElementGuid>d24fb3de-bac1-463d-ac6e-3a15e8b0b4ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

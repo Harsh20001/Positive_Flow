@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>allow_peers_access</name>
+   <tag></tag>
+   <elementGuidId>2f8cfe87-7062-431a-b69b-aaa9fe813b11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ctl00_ContentPlaceHolder1_DDAllowPeerAccess']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_ContentPlaceHolder1_DDAllowPeerAccess</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c50bf786-3d3c-4837-a3ea-1f8122b5522c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$ContentPlaceHolder1$DDAllowPeerAccess</value>
+      <webElementGuid>7fb24f15-9e2d-4493-bed2-b316089a8c47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_ContentPlaceHolder1_DDAllowPeerAccess</value>
+      <webElementGuid>7544cdf5-9d41-4f5c-8207-1261870b5d9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>DisplayPeerAuditor(this.value)</value>
+      <webElementGuid>5cfb8848-2ec3-4951-9816-a10a3ad4303b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+	Yes
+	No
+
+</value>
+      <webElementGuid>76eaa55d-5a7d-45a4-ac02-2ae7f89bb1f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_DDAllowPeerAccess&quot;)</value>
+      <webElementGuid>b8140dd4-f9f3-4900-9fa9-53101b2e191f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='ctl00_ContentPlaceHolder1_DDAllowPeerAccess']</value>
+      <webElementGuid>db1a3b12-63bb-4f9f-93c8-32fc7ef08c5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='TR_SignOff']/td/table/tbody/tr[2]/td/table/tbody/tr/td[4]/select</value>
+      <webElementGuid>bf8e06d6-0d68-457d-ad69-4fafbcbdb121</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Allow Peer Access:'])[1]/following::select[1]</value>
+      <webElementGuid>d78d2e13-bb76-4a78-ac2a-d2d7d58f70d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subscribe to Audit:'])[1]/following::select[2]</value>
+      <webElementGuid>86e753d7-9dd8-46de-9522-58d2cca679d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[5]/preceding::select[2]</value>
+      <webElementGuid>03e09a9c-76d0-451a-9c81-e2722c4f6043</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/table/tbody/tr/td[4]/select</value>
+      <webElementGuid>6a486546-b9f5-4311-b14e-12ad89505f18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'ctl00$ContentPlaceHolder1$DDAllowPeerAccess' and @id = 'ctl00_ContentPlaceHolder1_DDAllowPeerAccess' and (text() = '
+	Yes
+	No
+
+' or . = '
+	Yes
+	No
+
+')]</value>
+      <webElementGuid>a11e2f8b-2ee7-4617-822f-736b35b074ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
