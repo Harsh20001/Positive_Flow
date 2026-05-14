@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select_audit_area</name>
+   <name>Region_btnReset</name>
    <tag></tag>
-   <elementGuidId>218f9e5d-3b50-40ef-baff-32e84cb4e926</elementGuidId>
+   <elementGuidId>3fd0ad13-4bf2-47db-8aa6-5ddf50ec0128</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//img[@name='Image8']</value>
+         <value>//input[@id='btnReset']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>img[name=&quot;Image8&quot;]</value>
+         <value>#btnReset</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,87 +22,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-      <webElementGuid>06ed6cc4-4622-4601-9f3d-81d554ca5504</webElementGuid>
+      <value>input</value>
+      <webElementGuid>83ac11f6-2f04-4027-9eca-9db0c0b43046</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>type</name>
       <type>Main</type>
-      <value>images/selectauditarea-on.jpg</value>
-      <webElementGuid>44cd635b-66bc-4648-9894-8b835a996f6a</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>fd6ea519-5d7a-48d7-98b9-93bf6c064d71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Image8</value>
-      <webElementGuid>9ed95fc1-3dbb-40a1-a3d9-21734dfc8a71</webElementGuid>
+      <value>btnReset</value>
+      <webElementGuid>5e8d3e41-26f8-42f6-a7f0-236655021cab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>width</name>
+      <name>value</name>
       <type>Main</type>
-      <value>208</value>
-      <webElementGuid>9836546d-d3af-439f-9840-2cc853a96f05</webElementGuid>
+      <value>Reset</value>
+      <webElementGuid>c5d553f8-6796-46fd-b3a5-31cb063849fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnReset</value>
+      <webElementGuid>4e65ebe1-6b9f-4da8-984a-179c2d4bc8a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>height</name>
+      <name>class</name>
       <type>Main</type>
-      <value>52</value>
-      <webElementGuid>fdc0c214-cd99-4864-ae18-3a502b1f2db6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>border</name>
-      <type>Main</type>
-      <value>0</value>
-      <webElementGuid>cb1dbebf-c39d-48ef-b1df-a0df66e86448</webElementGuid>
+      <value>button</value>
+      <webElementGuid>bfc383c0-c55b-423e-bdd5-4fdbcf1594e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;aspnetForm&quot;)/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[3]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[@class=&quot;border&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[@class=&quot;default&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[@class=&quot;bgwhite&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]/img[1]</value>
-      <webElementGuid>d1731310-d3ba-4471-a63e-94583f5dfabf</webElementGuid>
+      <value>id(&quot;btnReset&quot;)</value>
+      <webElementGuid>78b9fed2-2062-444a-b60d-01a1e5a70cba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//img[@name='Image8']</value>
-      <webElementGuid>c96acc56-8a50-4e24-9c6b-df7c25b31ed9</webElementGuid>
+      <value>//input[@id='btnReset']</value>
+      <webElementGuid>65f45db4-3b1d-43a0-9302-6a91242cbd0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='aspnetForm']/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td[2]/a/img</value>
-      <webElementGuid>b380f678-4f6a-4bac-8678-b92963d3d5c3</webElementGuid>
+      <value>//div[@id='pnlFilter']/table/tbody/tr[4]/td[4]/input[2]</value>
+      <webElementGuid>a3991a1c-71bc-4df2-b810-1b61d2e95351</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[2]/a/img</value>
-      <webElementGuid>6eb27dc4-1eeb-496b-acbb-c6fc0639bf5a</webElementGuid>
+      <value>//td[4]/input[2]</value>
+      <webElementGuid>5810b690-7ac9-40a4-9b2c-d2f77d2ec629</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = 'images/selectauditarea-on.jpg' and @name = 'Image8']</value>
-      <webElementGuid>8a18c816-a708-40af-99fc-0f78498eb9dd</webElementGuid>
+      <value>//input[@type = 'submit' and @name = 'btnReset' and @id = 'btnReset']</value>
+      <webElementGuid>bad7f710-bc33-4041-aa3c-bb5c824e55a7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select_audit_area</name>
+   <name>Save_and_Assign_Audit_Areas</name>
    <tag></tag>
-   <elementGuidId>218f9e5d-3b50-40ef-baff-32e84cb4e926</elementGuidId>
+   <elementGuidId>bda3e0ce-1ea2-45b5-9032-36f344032c83</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//img[@name='Image8']</value>
+         <value>//input[@id='ctl00_ContentPlaceHolder1_btnSave']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>img[name=&quot;Image8&quot;]</value>
+         <value>#ctl00_ContentPlaceHolder1_btnSave</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,87 +22,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-      <webElementGuid>06ed6cc4-4622-4601-9f3d-81d554ca5504</webElementGuid>
+      <value>input</value>
+      <webElementGuid>25cc0457-7702-4852-bb4d-7d26f1ffeb85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>type</name>
       <type>Main</type>
-      <value>images/selectauditarea-on.jpg</value>
-      <webElementGuid>44cd635b-66bc-4648-9894-8b835a996f6a</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>4372981e-e816-46f4-ab64-13348cb7b787</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Image8</value>
-      <webElementGuid>9ed95fc1-3dbb-40a1-a3d9-21734dfc8a71</webElementGuid>
+      <value>ctl00$ContentPlaceHolder1$btnSave</value>
+      <webElementGuid>3ef77996-fade-4de7-8182-2b53c1c90fb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>width</name>
+      <name>value</name>
       <type>Main</type>
-      <value>208</value>
-      <webElementGuid>9836546d-d3af-439f-9840-2cc853a96f05</webElementGuid>
+      <value>Save and Assign Audit Areas</value>
+      <webElementGuid>38a3fe39-3802-4b72-b19e-68e2726a5826</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>height</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>52</value>
-      <webElementGuid>fdc0c214-cd99-4864-ae18-3a502b1f2db6</webElementGuid>
+      <value>return ValidateForm();</value>
+      <webElementGuid>df35f912-a622-4173-ae86-8a561091b6c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_ContentPlaceHolder1_btnSave</value>
+      <webElementGuid>b02679bc-ba45-4429-b24e-8bc691572b65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>border</name>
+      <name>class</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>cb1dbebf-c39d-48ef-b1df-a0df66e86448</webElementGuid>
+      <value>button</value>
+      <webElementGuid>e8bca2a3-8885-41c7-9ca2-6de7e3e75206</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;aspnetForm&quot;)/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[3]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[@class=&quot;border&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[@class=&quot;default&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[@class=&quot;bgwhite&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]/img[1]</value>
-      <webElementGuid>d1731310-d3ba-4471-a63e-94583f5dfabf</webElementGuid>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_btnSave&quot;)</value>
+      <webElementGuid>48954c99-c967-4daf-8632-2f930c730550</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//img[@name='Image8']</value>
-      <webElementGuid>c96acc56-8a50-4e24-9c6b-df7c25b31ed9</webElementGuid>
+      <value>//input[@id='ctl00_ContentPlaceHolder1_btnSave']</value>
+      <webElementGuid>c51d5734-bdb1-4767-ac16-630d57eda490</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='aspnetForm']/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td[2]/a/img</value>
-      <webElementGuid>b380f678-4f6a-4bac-8678-b92963d3d5c3</webElementGuid>
+      <value>//form[@id='aspnetForm']/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td[3]/input</value>
+      <webElementGuid>6f12295b-834e-49ce-96da-c0261205079a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[2]/a/img</value>
-      <webElementGuid>6eb27dc4-1eeb-496b-acbb-c6fc0639bf5a</webElementGuid>
+      <value>//tr[3]/td/table/tbody/tr/td[3]/input</value>
+      <webElementGuid>e85ea7b8-e1b1-4268-9802-c328a2e9aa47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = 'images/selectauditarea-on.jpg' and @name = 'Image8']</value>
-      <webElementGuid>8a18c816-a708-40af-99fc-0f78498eb9dd</webElementGuid>
+      <value>//input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnSave' and @id = 'ctl00_ContentPlaceHolder1_btnSave']</value>
+      <webElementGuid>3125e02f-e0f0-47a7-9fb0-328d55308089</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

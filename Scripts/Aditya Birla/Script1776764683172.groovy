@@ -27,7 +27,7 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('audit_planning'))
 
-//WebUI.callTestCase(findTestCase('Add Audit Area'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Add Audit Area'), [:], FailureHandling.STOP_ON_FAILURE)
 //WebUI.callTestCase(findTestCase('Select audit Area'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Assign Audits'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('Assign Audits'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('View Modify Annual Audit Plan'), [:], FailureHandling.STOP_ON_FAILURE)

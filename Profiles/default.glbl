@@ -6,57 +6,64 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Aditya Birla Capital Limited'</initValue>
+      <initValue>''</initValue>
       <name>SBU</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'audit area 28_04_2026 14_45'</initValue>
+      <initValue>''</initValue>
       <name>audit_area</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Borivali ( 400092 )'</initValue>
+      <initValue>''</initValue>
       <name>Location</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Chennai ( C001 )'</initValue>
+      <initValue>''</initValue>
       <name>Location_1</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Etrends ETD01'</initValue>
+      <initValue>''</initValue>
       <name>Reviewer</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Etrends ETD02'</initValue>
+      <initValue>''</initValue>
       <name>Lead_Auditor</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Regular Review'</initValue>
+      <initValue>''</initValue>
       <name>Audit_Type</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Internal'</initValue>
+      <initValue>''</initValue>
       <name>Audit_Team</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Plan</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

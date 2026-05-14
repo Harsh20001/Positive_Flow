@@ -36,6 +36,15 @@ WebUI.click(findTestObject('Save_Ticked_audit_Areas_to_annual_audit_area'))
 List<WebElement> dropdowns = WebUI.findWebElements(new TestObject().addProperty('xpath', ConditionType.EQUALS, '/html/body/form[2]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table[1]/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[4]/table/tbody/tr/td/select'), 
     10)
 
+def excelData = CustomKeywords.'Excel.excel_code'()
+GlobalVariable.Reviewer = (excelData['Reviewer'])
+GlobalVariable.Lead_Auditor = (excelData['Lead_Auditor'])
+GlobalVariable.Audit_Type = (excelData['Audit_Type'])
+GlobalVariable.Audit_Team = (excelData['Audit_Team'])
+GlobalVariable.Location = (excelData['Location'])
+GlobalVariable.Location_1 = (excelData['Location_1'])
+GlobalVariable.Plan = (excelData['Plan'])
+
 def values = [GlobalVariable.Reviewer, GlobalVariable.Lead_Auditor, GlobalVariable.Audit_Type, GlobalVariable.Audit_Team
     , GlobalVariable.Reviewer, GlobalVariable.Lead_Auditor, GlobalVariable.Audit_Type, GlobalVariable.Audit_Team]
 
@@ -53,7 +62,7 @@ List<WebElement> search = WebUI.findWebElements(new TestObject().addProperty('xp
 
 values = [GlobalVariable.Location, GlobalVariable.Location_1]
 
-for (int i = 0; i < search.size(); i++) {
+for (int i = 0; i < values.size(); i++) {
     dynamic = new TestObject()
 
     dynamic.addProperty('xpath', ConditionType.EQUALS, ('(//input[@type=\'text\'])[' + (i + 1)) + ']')
@@ -61,8 +70,7 @@ for (int i = 0; i < search.size(); i++) {
     // Correct way — pass value one by one
     WebUI.setText(dynamic, values[i])
 
-    dynamic.addProperty('xpath', ConditionType.EQUALS, ((('(//tr[td[label[normalize-space(text())=\'' + (values[i])) + '\']]]/td/input[@type=\'checkbox\'])[') + 
-        (i + 1)) + ']')
+    dynamic.addProperty('xpath',ConditionType.EQUALS,"(//label[contains(normalize-space(),'"+values[i]+"')]/preceding-sibling::input[@type='checkbox'])[" + (i + 1) + "]")
 
     WebUI.click(dynamic)
 }

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select_audit_area</name>
+   <name>Re_activate_button</name>
    <tag></tag>
-   <elementGuidId>218f9e5d-3b50-40ef-baff-32e84cb4e926</elementGuidId>
+   <elementGuidId>95146821-f2dc-4c70-8fd2-fe855a974738</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//img[@name='Image8']</value>
+         <key>CSS</key>
+         <value>#ctl00_ContentPlaceHolder1_btnReActivateAudit</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>img[name=&quot;Image8&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@id='ctl00_ContentPlaceHolder1_btnReActivateAudit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,87 +22,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-      <webElementGuid>06ed6cc4-4622-4601-9f3d-81d554ca5504</webElementGuid>
+      <value>input</value>
+      <webElementGuid>357e29eb-6d82-4828-9704-062a5fe11cbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>type</name>
       <type>Main</type>
-      <value>images/selectauditarea-on.jpg</value>
-      <webElementGuid>44cd635b-66bc-4648-9894-8b835a996f6a</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>89446179-16da-464b-98f8-ab8be20afef6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Image8</value>
-      <webElementGuid>9ed95fc1-3dbb-40a1-a3d9-21734dfc8a71</webElementGuid>
+      <value>ctl00$ContentPlaceHolder1$btnReActivateAudit</value>
+      <webElementGuid>9981188d-e39b-4d39-9d81-d8a832dfdf11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>width</name>
+      <name>value</name>
       <type>Main</type>
-      <value>208</value>
-      <webElementGuid>9836546d-d3af-439f-9840-2cc853a96f05</webElementGuid>
+      <value>Re-Activate Audit</value>
+      <webElementGuid>11b8a559-791c-4cf8-8fb4-57397077182f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>height</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>52</value>
-      <webElementGuid>fdc0c214-cd99-4864-ae18-3a502b1f2db6</webElementGuid>
+      <value>return ValidateReActivateAudit();</value>
+      <webElementGuid>33cafc62-dd79-4c36-917b-a36a0cf7e257</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_ContentPlaceHolder1_btnReActivateAudit</value>
+      <webElementGuid>9d11bde4-7fb2-4525-a4dd-d002da2d6743</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>border</name>
+      <name>class</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>cb1dbebf-c39d-48ef-b1df-a0df66e86448</webElementGuid>
+      <value>button</value>
+      <webElementGuid>22c524c6-5bc1-4b3d-9d26-cd92f14e3444</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;aspnetForm&quot;)/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[3]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[@class=&quot;border&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[@class=&quot;default&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[@class=&quot;bgwhite&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]/img[1]</value>
-      <webElementGuid>d1731310-d3ba-4471-a63e-94583f5dfabf</webElementGuid>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_btnReActivateAudit&quot;)</value>
+      <webElementGuid>9563f4b6-3b14-41d9-8581-1a804eb0d2c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//img[@name='Image8']</value>
-      <webElementGuid>c96acc56-8a50-4e24-9c6b-df7c25b31ed9</webElementGuid>
+      <value>//input[@id='ctl00_ContentPlaceHolder1_btnReActivateAudit']</value>
+      <webElementGuid>5e94af2b-2d13-4657-a6fb-762af50afa1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='aspnetForm']/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td[2]/a/img</value>
-      <webElementGuid>b380f678-4f6a-4bac-8678-b92963d3d5c3</webElementGuid>
+      <value>//div[@id='ctl00_ContentPlaceHolder1_pnlReActivateAudit']/table/tbody/tr[2]/td/table/tbody/tr[3]/td[3]/input</value>
+      <webElementGuid>80debf82-ab70-4790-9d38-ae92155f8aae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[2]/a/img</value>
-      <webElementGuid>6eb27dc4-1eeb-496b-acbb-c6fc0639bf5a</webElementGuid>
+      <value>//td[3]/input</value>
+      <webElementGuid>0bf2ece2-48db-47f0-83ed-ca753ba5f81c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = 'images/selectauditarea-on.jpg' and @name = 'Image8']</value>
-      <webElementGuid>8a18c816-a708-40af-99fc-0f78498eb9dd</webElementGuid>
+      <value>//input[@type = 'submit' and @name = 'ctl00$ContentPlaceHolder1$btnReActivateAudit' and @id = 'ctl00_ContentPlaceHolder1_btnReActivateAudit']</value>
+      <webElementGuid>d8f5b87d-d5ac-40ef-b10a-1926b1c291ff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

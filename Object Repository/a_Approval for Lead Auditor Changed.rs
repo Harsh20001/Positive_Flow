@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Approval for Lead Auditor Changed</name>
+   <tag></tag>
+   <elementGuidId>c8f7e63d-334a-44c8-8b5b-4154865748f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#hplink</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='hplink']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f2cf2a71-d32d-4817-9dcd-88f7a9c5ed2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>hplink</value>
+      <webElementGuid>d4aee0c1-4ec8-4e68-a96d-cbc2ba5f4362</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>WFNotificationsDetails.aspx?rID=7KsFAB/qJcc=&amp;ProxyFor=</value>
+      <webElementGuid>df019b33-e51a-4b24-bc18-1a5af1560d22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                        Approval for Lead Auditor Changed
+                                                    </value>
+      <webElementGuid>eb24f76e-9f9e-48f0-82ac-4160e93525ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hplink&quot;)</value>
+      <webElementGuid>61ecd10c-3e67-4d8e-85da-27ef8f39d0bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='hplink']</value>
+      <webElementGuid>8f83922a-309d-4414-b4d5-b3831e73885a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='ctl00_ContentPlaceHolder1_ucWFNotifications_GVNotification']/tbody/tr[2]/td[3]/a</value>
+      <webElementGuid>963bf231-2bd0-4376-b852-735d7f30931e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Approval for Lead Auditor Changed')]</value>
+      <webElementGuid>11ec3ea4-bcc7-451f-9645-4ea2e9a8e1f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::a[1]</value>
+      <webElementGuid>2d68d583-3014-4664-a666-4aa7b3771382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proxy For'])[1]/following::a[1]</value>
+      <webElementGuid>3a593c45-fb6d-4146-862e-93294c112364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='audit area 28_04_2026 14_45 (Aditya Birla Capital Limited)'])[1]/preceding::a[1]</value>
+      <webElementGuid>cef4363e-e259-4124-b51d-0097d05d4776</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chennai (C001)'])[1]/preceding::a[1]</value>
+      <webElementGuid>4f21fe69-6484-4b63-8589-dcc2a8ea7145</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'WFNotificationsDetails.aspx?rID=7KsFAB/qJcc=&amp;ProxyFor=')]</value>
+      <webElementGuid>ea4e3962-ef05-4b37-9a46-28c8d40553d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[3]/a</value>
+      <webElementGuid>ae54c319-91ae-4c83-af29-13e3fdefe10b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'hplink' and @href = 'WFNotificationsDetails.aspx?rID=7KsFAB/qJcc=&amp;ProxyFor=' and (text() = '
+                                                        Approval for Lead Auditor Changed
+                                                    ' or . = '
+                                                        Approval for Lead Auditor Changed
+                                                    ')]</value>
+      <webElementGuid>6036ba0d-8341-4b41-94a1-e61ebc99c381</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>audit_Area_filter</name>
+   <tag></tag>
+   <elementGuidId>06519093-2c40-4601-b882-b735bdca6fa0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.chosen-single.form-control > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ctl00_ContentPlaceHolder1_ucWFNotifications_DDAuditArea_chosen']/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>69ab861c-f29e-431c-b2b3-4dfe96bcfa82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All</value>
+      <webElementGuid>1c1a2610-6721-4166-b093-8c948dbf2e2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_ContentPlaceHolder1_ucWFNotifications_DDAuditArea_chosen&quot;)/a[@class=&quot;chosen-single form-control&quot;]/span[1]</value>
+      <webElementGuid>2c78e0e6-277e-4f25-8e63-7324c26fe080</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ctl00_ContentPlaceHolder1_ucWFNotifications_DDAuditArea_chosen']/a/span</value>
+      <webElementGuid>11c7bad4-4e33-4007-b7e5-ef91f5b3caab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit Area :'])[1]/following::span[1]</value>
+      <webElementGuid>296fa17e-ba04-46e2-b433-8cd39ce2e2f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='To Date :'])[1]/following::span[1]</value>
+      <webElementGuid>ba776dfd-46ae-43c2-afc1-434ffa35d3c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[3]/preceding::span[1]</value>
+      <webElementGuid>88194663-f56e-410a-acc3-7840d2c0ab77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activity_Area_2_120 (Aditya Birla Capital Limited)'])[2]/preceding::span[1]</value>
+      <webElementGuid>eec50f55-75bb-4466-b80a-68eea08a79af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span</value>
+      <webElementGuid>b66b415a-a19b-43e2-bea8-1fa417877d81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'All' or . = 'All')]</value>
+      <webElementGuid>14a79666-0823-4cc2-8420-912d83e98ec7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

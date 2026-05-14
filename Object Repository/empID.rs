@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select_audit_area</name>
+   <name>empID</name>
    <tag></tag>
-   <elementGuidId>218f9e5d-3b50-40ef-baff-32e84cb4e926</elementGuidId>
+   <elementGuidId>8ddcacc7-a7df-4447-bee4-e73b953dd744</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//img[@name='Image8']</value>
+         <value>//input[@id='empID']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>img[name=&quot;Image8&quot;]</value>
+         <value>#empID</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,87 +22,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-      <webElementGuid>06ed6cc4-4622-4601-9f3d-81d554ca5504</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>images/selectauditarea-on.jpg</value>
-      <webElementGuid>44cd635b-66bc-4648-9894-8b835a996f6a</webElementGuid>
+      <value>input</value>
+      <webElementGuid>47f0fbbd-4a6a-490d-a515-b8c483e3e0d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Image8</value>
-      <webElementGuid>9ed95fc1-3dbb-40a1-a3d9-21734dfc8a71</webElementGuid>
+      <value>empID</value>
+      <webElementGuid>e388370f-24c3-43a8-86e9-411d0aa4703a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>e2661ca9-4f46-403c-8183-cc78189229ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>empID</value>
+      <webElementGuid>fb502e6c-2a27-4750-ae0b-7466ff321fb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>width</name>
+      <name>class</name>
       <type>Main</type>
-      <value>208</value>
-      <webElementGuid>9836546d-d3af-439f-9840-2cc853a96f05</webElementGuid>
+      <value>box</value>
+      <webElementGuid>19022d90-e6a4-4edc-afc9-c077f8d0042c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>height</name>
+      <name>onkeypress</name>
       <type>Main</type>
-      <value>52</value>
-      <webElementGuid>fdc0c214-cd99-4864-ae18-3a502b1f2db6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>border</name>
-      <type>Main</type>
-      <value>0</value>
-      <webElementGuid>cb1dbebf-c39d-48ef-b1df-a0df66e86448</webElementGuid>
+      <value>return RestrictSqlInjection(event)</value>
+      <webElementGuid>a4770457-b9ad-4e8c-8b43-249a424788c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;aspnetForm&quot;)/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[3]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[@class=&quot;border&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[@class=&quot;default&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[@class=&quot;bgwhite&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]/img[1]</value>
-      <webElementGuid>d1731310-d3ba-4471-a63e-94583f5dfabf</webElementGuid>
+      <value>id(&quot;empID&quot;)</value>
+      <webElementGuid>ae5b3a96-247c-4b5a-a0ab-ae17ba54f70c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//img[@name='Image8']</value>
-      <webElementGuid>c96acc56-8a50-4e24-9c6b-df7c25b31ed9</webElementGuid>
+      <value>//input[@id='empID']</value>
+      <webElementGuid>cec3fc30-75a9-4489-b034-9b9a0180eb40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='aspnetForm']/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td[2]/a/img</value>
-      <webElementGuid>b380f678-4f6a-4bac-8678-b92963d3d5c3</webElementGuid>
+      <value>//div[@id='pnlFilter']/table/tbody/tr/td[2]/input</value>
+      <webElementGuid>7e001a33-e1b2-4b7c-8675-8dfdf4e2b1df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[2]/a/img</value>
-      <webElementGuid>6eb27dc4-1eeb-496b-acbb-c6fc0639bf5a</webElementGuid>
+      <value>//tr[2]/td/div/table/tbody/tr/td[2]/input</value>
+      <webElementGuid>e4219980-0824-4fb8-8931-ec68b451a92c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = 'images/selectauditarea-on.jpg' and @name = 'Image8']</value>
-      <webElementGuid>8a18c816-a708-40af-99fc-0f78498eb9dd</webElementGuid>
+      <value>//input[@name = 'empID' and @type = 'text' and @id = 'empID']</value>
+      <webElementGuid>a32a687d-1f9b-43d5-9435-baec6d5e73af</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

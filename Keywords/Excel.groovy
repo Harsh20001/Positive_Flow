@@ -29,9 +29,16 @@ public class Excel {
 			return [
 				'SBU': data.getValue('SBU', 1),
 				'Location': data.getValue('Location', 1),
-				'Financial_Year': data.getValue('Financial_Year', 1)
+				'Financial_Year': data.getValue('Financial_Year', 1),
+				'Location_1': data.getValue('Location_1', 1),
+				'Reviewer': data.getValue('Reviewer', 1),
+				'Lead_Auditor': data.getValue('Lead_Auditor', 1),
+				'Audit_Type': data.getValue('Audit_Type', 1),
+				'Audit_Team': data.getValue('Audit_Team', 1),
+				'Plan': data.getValue('Plan', 1)
 			]
 
 		}
 	}
+	
 }

@@ -31,6 +31,8 @@ for (int i = 0; i < labels.size(); i++) {
     String label = labels[i]
 
     String value = values[i]
+	
+	String clean = value.replaceAll('[ ()]', '')
 
     if ((value != null) && (value.trim() != '')) {
         // 🔹 Click dropdown using label (NOT index)
@@ -46,8 +48,7 @@ for (int i = 0; i < labels.size(); i++) {
         // 🔹 Select option
         TestObject option = new TestObject()
 
-        option.addProperty('xpath', ConditionType.EQUALS, ('//li[contains(@class,\'active-result\') and normalize-space()=\'' + 
-            value) + '\']')
+        option.addProperty('xpath',ConditionType.EQUALS,"//li[contains(@class,'active-result') and contains(translate(., ' ()', ''), '"+clean+"')]")
 
         WebUI.waitForElementClickable(option, 10)
 
@@ -57,27 +58,43 @@ for (int i = 0; i < labels.size(); i++) {
 
 WebUI.click(findTestObject('Assign_audit_Area_filter_btn'))
 
+WebUI.executeJavaScript('window.scrollTo(0, document.body.scrollHeight)', null)
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('From_date'))
+
+WebUI.switchToFrame(findTestObject('Iframe_From_date'), 2)
 
 int firstDay = LocalDate.now().withDayOfMonth(1).getDayOfMonth()
 
 println(firstDay)
 
-dynamic = new TestObject()
+TestObject dynamic = new TestObject()
 
-dynamic.addProperty('xpath', ConditionType.EQUALS, ('(//a[text()=\'' + firstDay) + '\'])')
+dynamic.addProperty('xpath', ConditionType.EQUALS, ('//a[text()=\'' + firstDay) + '\']')
+
+WebUI.waitForElementPresent(dynamic, 2)
 
 WebUI.click(dynamic)
 
+WebUI.switchToDefaultContent()
+
 WebUI.click(findTestObject('To_date'))
+
+WebUI.switchToFrame(findTestObject('Iframe_From_date'), 2)
 
 int lastDay = LocalDate.now().with(TemporalAdjusters.lastDayOfMonth()).getDayOfMonth()
 
 println(lastDay)
 
-dynamic.addProperty('xpath', ConditionType.EQUALS, ('(//a[text()=\'' + lastDay) + '\'])')
+dynamic.addProperty('xpath', ConditionType.EQUALS, ('//a[text()=\'' + lastDay) + '\']')
+
+WebUI.waitForElementPresent(dynamic, 0)
 
 WebUI.click(dynamic)
+
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('days_error'))
 
@@ -86,4 +103,40 @@ WebUI.setText(findTestObject('NoDays_auditor'), '3')
 WebUI.setText(findTestObject('NoDays_reviewer'), '4')
 
 WebUI.click(findTestObject('Planned_days_btnSave'))
+
+WebUI.click(findTestObject('select_auditee'))
+
+WebUI.switchToFrame(findTestObject('iframe_Pick Auditee and Escalator__iframe-UserBox'), 6);
+
+WebUI.click(findTestObject('auditee_icon'))
+
+WebUI.switchToFrame(findTestObject('iframe_Pick Auditee and Escalator__iframe-UserBox'), 6);
+
+WebUI.click(findTestObject('Region_btnReset'))
+
+WebUI.setText(findTestObject('empID'), 'ETD06')
+
+WebUI.click(findTestObject('Region_btnSearch'))
+
+WebUI.click(findTestObject('chk'))
+
+WebUI.click(findTestObject('btnAddToList'))
+
+WebUI.click(findTestObject('done_button'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.switchToFrame(findTestObject('iframe_Pick Auditee and Escalator__iframe-UserBox'), 1);
+
+WebUI.click(findTestObject('auto_fill_escalator'))
+
+WebUI.click(findTestObject('Submit'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.click(findTestObject('Save_and_Assign_Audit_Areas'))
+
+CustomKeywords.'Assign_audit_2nd.Assign_2nd_audits'()
+
+WebUI.click(findTestObject('audit_planning'))
 

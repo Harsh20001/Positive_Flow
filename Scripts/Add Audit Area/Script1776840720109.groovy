@@ -30,7 +30,7 @@ println(GlobalVariable.SBU)
 
 WebUI.click(findTestObject('Add audit area'))
 
-WebUI.selectOptionByLabel(findTestObject('null'), GlobalVariable.SBU, false)
+WebUI.selectOptionByLabel(findTestObject('select_sbu_audit_area'), GlobalVariable.SBU, false)
 
 LocalDateTime now = LocalDateTime.now()
 
@@ -52,9 +52,13 @@ WebUI.selectOptionByLabel(findTestObject('Action'), 'New Addition', false)
 
 WebUI.click(findTestObject('modified_on'))
 
+WebUI.switchToFrame(findTestObject('Iframe_From_date'), 1);
+
 WebUI.waitForElementClickable(findTestObject('Today'), 5)
 
 WebUI.click(findTestObject('Today'))
+
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('filter'))
 
@@ -78,6 +82,8 @@ if ((audit.equals(GlobalVariable.audit_area) && company_name.equals(GlobalVariab
 
 WebUI.click(findTestObject('View Details'))
 
+WebUI.switchToFrame(findTestObject('iframe_Pick Auditee__iframe-UserBox'), 1);
+
 audit = WebUI.getText(findTestObject('view_details_audit_area'))
 
 company_name = WebUI.getText(findTestObject('View_details_company_name'))
@@ -89,6 +95,8 @@ if ((audit.equals(GlobalVariable.audit_area) && company_name.equals(GlobalVariab
 
     WebUI.click(findTestObject('btnClose'))
 
+	WebUI.switchToDefaultContent()
+	
     WebUI.click(findTestObject('checkbox'))
 
     WebUI.click(findTestObject('Accept'))
@@ -98,6 +106,10 @@ if ((audit.equals(GlobalVariable.audit_area) && company_name.equals(GlobalVariab
     WebUI.callTestCase(findTestCase('Manage Audit Area'), [:], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.callTestCase(findTestCase('Select audit Area'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.callTestCase(findTestCase('Assign Audits'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.callTestCase(findTestCase('View Modify Annual Audit Plan'), [:], FailureHandling.STOP_ON_FAILURE)
 
     Assert.assertTrue(test)
 } else {
@@ -105,6 +117,8 @@ if ((audit.equals(GlobalVariable.audit_area) && company_name.equals(GlobalVariab
 
     WebUI.click(findTestObject('btnClose'))
 
+	WebUI.switchToDefaultContent()
+	
     WebUI.click(findTestObject('checkbox'))
 
     WebUI.click(findTestObject('Accept'))
@@ -114,6 +128,10 @@ if ((audit.equals(GlobalVariable.audit_area) && company_name.equals(GlobalVariab
     WebUI.callTestCase(findTestCase('Manage Audit Area'), [:], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.callTestCase(findTestCase('Select audit Area'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.callTestCase(findTestCase('Assign Audits'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.callTestCase(findTestCase('View Modify Annual Audit Plan'), [:], FailureHandling.STOP_ON_FAILURE)
 
     Assert.assertTrue(test)
 }

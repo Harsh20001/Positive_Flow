@@ -11,6 +11,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testdata.TestData
+import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -33,4 +34,89 @@ public class Login {
 		
 	}
 	
+	@Keyword
+	def reviewer_login () {
+				
+		WebUI.navigateToUrl('http://10.0.77.99/LARS_Adityabirla/loginet.aspx')
+		
+		WebUI.setText(findTestObject('username'), 'etd02')
+		
+		WebUI.setText(findTestObject('password'), 'a')
+		
+		WebUI.click(findTestObject('Login_button'))
+		
+	}
+	
+	@Keyword
+	def send_for_review () {
+				
+		WebUI.selectOptionByLabel(findTestObject('select_reviewer'), GlobalVariable.Lead_Auditor, false)
+		
+		WebUI.setText(findTestObject('txtRemarks'), 'Changing Lead auditor')
+		
+		WebUI.click(findTestObject('send_for_review'))
+		
+		WebUI.click(findTestObject('close_change_auditor'))
+		
+		WebUI.click(findTestObject('a_Logout'))
+		
+		CustomKeywords.'Login.reviewer_login'()
+		
+		WebUI.click(findTestObject('approve'))
+		
+		WebUI.click(findTestObject('Notifications'))
+		
+		WebUI.click(findTestObject('filter_icon_notification_tab'))
+		
+		String auditArea = GlobalVariable.audit_area
+		
+		// Extract only the date part
+		String datePart = auditArea.replace('audit area ', '').split(' ')[0]
+		
+		// Convert 2026 -> 20
+		String shortYear = datePart.substring(0, datePart.lastIndexOf('_') + 1) + '20'
+		
+		String finalValue = ((('audit area ' + shortYear) + ' (') + GlobalVariable.SBU) + ')'
+		
+		def labels = ['Audit Area']
+		
+		def values = [finalValue]
+		
+		for (int i = 0; i < labels.size(); i++) {
+		    String label = labels[i]
+		
+		    String value = values[i]
+		
+		    if ((value != null) && (value.trim() != '')) {
+		        // 🔹 Click dropdown using label (NOT index)
+		        TestObject dropdown = new TestObject()
+		
+		        dropdown.addProperty('xpath', ConditionType.EQUALS, (('//*[self::label or self::strong][contains(normalize-space(),\'' + 
+		            label) + '\')]') + '/following::a[contains(@class,\'chosen-single\')]')
+		
+		        WebUI.waitForElementClickable(dropdown, 10)
+		
+		        WebUI.click(dropdown)
+		
+		        // 🔹 Select option
+		        TestObject option = new TestObject()
+		
+		        option.addProperty('xpath', ConditionType.EQUALS, ('//li[contains(@class,\'active-result\') and normalize-space()=\'' + 
+		            value) + '\']')
+		
+		        WebUI.waitForElementClickable(option, 10)
+		
+		        WebUI.click(option)
+		    }
+		}
+		
+		WebUI.click(findTestObject('filter_button_notification'))
+		
+		WebUI.click(findTestObject('a_Approval for Lead Auditor Changed'))
+		
+		WebUI.click(findTestObject('approve_button'))
+		
+		WebUI.acceptAlert()
+		
+	}
 }
